@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "posts",
+  "collectionName": "cources",
   "info": {
-    "singularName": "post",
-    "pluralName": "posts",
-    "displayName": "Post",
+    "singularName": "cource",
+    "pluralName": "cources",
+    "displayName": "Cource",
     "description": ""
   },
   "options": {
@@ -24,11 +24,9 @@
       },
       "type": "string",
       "required": true,
-      "unique": true,
-      "minLength": 10,
-      "maxLength": 150
+      "unique": true
     },
-    "content": {
+    "description": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -44,13 +42,12 @@
         }
       },
       "type": "uid",
-      "targetField": "title",
-      "required": true
+      "targetField": "title"
     },
-    "cover": {
+    "images": {
       "type": "media",
       "multiple": true,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "videos"
@@ -61,26 +58,10 @@
         }
       }
     },
-    "authors": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "admin::user"
-    },
     "tags": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::tag.tag"
-    },
-    "seo": {
-      "displayName": "seoInformation",
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "seo.seo-information"
     }
   }
 }
