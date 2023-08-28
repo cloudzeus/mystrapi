@@ -1340,7 +1340,7 @@
     react-intl "6.4.1"
     yup "0.32.9"
 
-"@strapi/plugin-i18n@4.12.19":
+"@strapi/plugin-i18n@4.12.7":
   version "4.12.7"
   resolved "https://registry.yarnpkg.com/@strapi/plugin-i18n/-/plugin-i18n-4.12.7.tgz#18c97ff16a7a82406d0d21dd9e322c0cd2301b66"
   integrity sha512-1n1Il7jmlPe8fghEU/3yJOV0GRJqoovpFOt8jPUEHQbZqbdpg36en+DQzS/fSLtXZQSgHJlhbElJqLCjiV8z7A==
@@ -1392,7 +1392,7 @@
     sharp "0.32.0"
     yup "0.32.9"
 
-"@strapi/plugin-users-permissions@4.12.19":
+"@strapi/plugin-users-permissions@4.12.7":
   version "4.12.7"
   resolved "https://registry.yarnpkg.com/@strapi/plugin-users-permissions/-/plugin-users-permissions-4.12.7.tgz#ddd96e6eca610d5c5f10ae8851d1a977a169ebaf"
   integrity sha512-dl7Ar1zVl0DWuL45FcYTPZDQDuS+S0FFbq+rjZBFBcmNHwAiGsw7jr+1PbGhb1Vc6N4EnDYXiLqDKawM8BiuBA==
@@ -1439,7 +1439,7 @@
     "@strapi/utils" "4.12.7"
     fs-extra "10.0.0"
 
-"@strapi/strapi@4.12.19", "@strapi/strapi@4.12.7":
+"@strapi/strapi@4.12.7":
   version "4.12.7"
   resolved "https://registry.yarnpkg.com/@strapi/strapi/-/strapi-4.12.7.tgz#51ecd24854f5d41bd972c064fff7fc99186ef191"
   integrity sha512-9cDdDN4tjNXw3jW2qUh/gc0GL7Rgcw4jRfeUnSeVgeEEduvQR3Cit2DIgdHeQvtaN+80Iwj4wCAOLs951o4Bwg==
